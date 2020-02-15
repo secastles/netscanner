@@ -37,7 +37,7 @@ def run_port_scan():
         raise
     else:
         host_count = 0
-        notification_payload = "This is your regular test of the process."
+        notification_payload = ""
         logger.info("nmap found the following hosts:")
         try:
             for host in nm.all_hosts():
