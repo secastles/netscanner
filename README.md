@@ -8,9 +8,11 @@ A simple python script to:
 nmap and python-nmap
 
 ## Configuration
+Rename `settings_example.py` to `settings.py`.
+
 Must be run using sudo in order to provide necessary rights to nmap.
 
-Example running from console (verbose logging):
+Example running from console (verbose logging on by default):
 `sudo python3 netscanner.py`
 
 Example running in cron (every 15 minutes):
@@ -20,5 +22,3 @@ Example running in cron (every 15 minutes):
 `*/15 * * * * /home/netscanner/venv/bin/python3 /home/netscanner/netscanner.py`
  
  SQLite database is created and stored in same folder as the script.
- 
- Rename `settings_example.py` to `settings.py`
